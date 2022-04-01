@@ -1,1 +1,4 @@
-
+body {
+  background-image: url(../img/night-sky.jpg);
+  background-size: cover;
+}
