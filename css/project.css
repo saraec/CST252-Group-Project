@@ -8,3 +8,7 @@ div#input {
   float: right;
   margin: 15px;
 }
+div#output {
+  float: left;
+  margin: 15px;
+}
