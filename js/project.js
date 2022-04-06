@@ -1,11 +1,6 @@
 // Create a carousel of a curved path
 // https://stackoverflow.com/questions/27369383/curved-carousel-bezier-path
 
-// Create a function that gets input from the user and sorts them to a constellation
-function getDate() {
-  var birth = window.prompt ("Please enter your birth date.")
-}
-
 function sortStar() {
 //   do a mod 12
       var mod = date % 12;
