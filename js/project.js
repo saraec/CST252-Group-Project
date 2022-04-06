@@ -7,10 +7,8 @@ function getDate() {
 }
 
 function sortStar() {
-//   get length of name
-      var len = date;
 //   do a mod 12
-      var mod = len % 12;
+      var mod = date % 12;
 //   use conditional to define variable
       if (mod == 0) {
           starStr = "Aquarius";
