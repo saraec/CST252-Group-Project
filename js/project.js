@@ -6,7 +6,7 @@ function getDate() {
   var birth = window.prompt ("Please enter your birth date.")
 }
 
-function sortStar {
+function sortStar() {
 //   get length of name
       var len = date;
 //   do a mod 12
@@ -52,5 +52,4 @@ function sortStar {
 //     append paragraph to output
         var newText = "Your Zodiac constellation is " + starStr;
         document.getElementById("output").innerHTML = newText;
-})
 })
