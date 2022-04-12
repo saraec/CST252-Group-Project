@@ -1,13 +1,21 @@
+
 body {
   background-image: url(../img/night-sky.png);
   background-size: cover;
   color: white;
+  font-family: Arial;
+  font-weight: bolder;
 }
 
-#virgo {
+#virgo img {
   display: inline-block;
-  max-width: 320px;
-  max-height: 320px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+div#virgo {
+  text-align: center;
+  margin-top: 100px;
 }
 
 div#output {
