@@ -1,9 +1,33 @@
 // Create a carousel of a curved path
 // https://stackoverflow.com/questions/27369383/curved-carousel-bezier-path
+$(document).ready(function(){
+  // Carousel
+  $("#myCarousel").carousel();
+
+  // Carousel Indicators
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+  });
+
+  // Carousel Controls
+  $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+  $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+});
 
 function sortStar() {
-//   add month to number
-
 //   do a mod 12
       var mod = date % 12;
 //   use conditional to define variable
