@@ -34,6 +34,23 @@ function sortStar() {
         return starStr;
     }
 
+// Three pure javascript functions to manipulate classes
+// from https://stackoverflow.com/questions/6787383/how-to-add-remove-a-class-in-javascript
+// function hasClass(ele,cls) {
+//   return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+// }
+// //
+// function addClass(ele,cls) {
+//   if (!hasClass(ele,cls)) ele.className += " "+cls;
+// }
+// //
+// function removeClass(ele,cls) {
+//   if (hasClass(ele,cls)) {
+//     var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+//     ele.className=ele.className.replace(reg,' ');
+//   }
+// }
+
 //   Get input from user
        $("#button").click(function(){
 //     put id input in html
@@ -46,3 +63,14 @@ function sortStar() {
         var newText = "Your Zodiac constellation is " + starStr;
         document.getElementById("output").innerHTML = newText;
 })
+
+//   var outputArea = document.getElementById("output");
+//   outputArea.innerHTML = newText;
+//   removeClass(outputArea, "hidden");
+//   removeClass(document.getElementById("hidden");
+// })
+// var myInput = document.getElementById("input");
+// myInput.addEventListener("focus", function() {
+//   addClass(document.getElementById("output"), "hidden");
+//   addClass(document.getElementById("hidden");
+// });
