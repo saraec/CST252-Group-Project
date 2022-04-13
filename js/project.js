@@ -2,6 +2,8 @@
 // https://stackoverflow.com/questions/27369383/curved-carousel-bezier-path
 
 function sortStar() {
+//   add month to number
+
 //   do a mod 12
       var mod = date % 12;
 //   use conditional to define variable
