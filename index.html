@@ -6,18 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="css/project.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="js/lab.js" defer></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		width: 70%;
+		margin: auto;
+	}
+	</style>
 </head>
 <body>
   <div id ="content">
 		<div id="input">
-		<p>Enter your birth date to find out which<br></br> Zodiac constellation you belong to. </p>
+		<p>Enter your birth month to find out which<br></br> Zodiac constellation you belong to. </p>
 		<input type="text">
 		<button id="button">Enter</button>
 	 </div>
-	 	<div id="virgo">
-			<img src="img/virgo.png">
-		</div>
-		<div id="output"></div>
+	 <div id=output></div>
+	 <div id="myCarousel" class="carousel slide">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li class="star1"></li>
+       <li class="star2"></li>
+       <li class="star3"></li>
+       <li class="star4"></li>
+     </ol>
 
 		</div>
 </body>
