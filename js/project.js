@@ -26,6 +26,7 @@
 //    $("#myCarousel").carousel("next");
 //  });
 //});
+var mod = 0;
 
 function sortStar() {
 //   do a mod 12
@@ -60,6 +61,7 @@ for (let i = 0; i < 14; i++) {
         }
 //   return text
         return starStr;
+        return
         if (i == 13){
           i = 0;
         }
