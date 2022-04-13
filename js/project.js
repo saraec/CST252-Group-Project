@@ -100,6 +100,7 @@ for (let i = 0; i < 14; i++) {
         return
         if (i == 13){
           i = 0;
+          console.log(i);
         }
     }
 
