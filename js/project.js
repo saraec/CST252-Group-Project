@@ -1,39 +1,39 @@
 // Create a carousel of a curved path
 // https://stackoverflow.com/questions/27369383/curved-carousel-bezier-path
-// $(document).ready(function(){
-//   // Carousel
-//   $("#myCarousel").carousel();
-//
-//   // Carousel Indicators
-//   $(".item1").click(function(){
-//     $("#myCarousel").carousel(0);
-//   });
-//   $(".item2").click(function(){
-//     $("#myCarousel").carousel(1);
-//   });
-//   $(".item3").click(function(){
-//     $("#myCarousel").carousel(2);
-//   });
-//   $(".item4").click(function(){
-//     $("#myCarousel").carousel(3);
-//  });
+$(document).ready(function(){
+  // Carousel
+  $("#myCarousel").carousel();
 
-  // Carousel Controls
-//  $(".left").click(function(){
-//    $("#myCarousel").carousel("prev");
-//  });
-//  $(".right").click(function(){
-//    $("#myCarousel").carousel("next");
-//  });
-//});
-var mod = 0;
+  // Carousel Indicators
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+ });
+
+  Carousel Controls
+ $(".left").click(function(){
+   $("#myCarousel").carousel("prev");
+ });
+ $(".right").click(function(){
+   $("#myCarousel").carousel("next");
+ });
+});
+// var mod = 0;
 
 function sortStar() {
 //   do a mod 12
-//      var mod = date % 12;
+     var mod = date % 12;
 //   use conditional to define variable
-for (let i = 0; i < 14; i++) {
-  setTimeout(function () {mod++}, 6000);
+// for (let i = 0; i < 14; i++) {
+//   setTimeout(function () {mod++}, 6000);
       if (mod == 0) {
           starStr = "Aquarius";
         } else if (mod == 1){
@@ -61,11 +61,11 @@ for (let i = 0; i < 14; i++) {
         }
 //   return text
         return starStr;
-        return
-        if (i == 13){
-          i = 0;
-          console.log(i);
-        }
+        // return
+        // if (i == 13){
+        //   i = 0;
+        //   console.log(i);
+        // }
     }
 
 // Three pure javascript functions to manipulate classes
