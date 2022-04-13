@@ -26,11 +26,14 @@
 //    $("#myCarousel").carousel("next");
 //  });
 //});
+var mod = 0;
 
 function sortStar() {
 //   do a mod 12
-      var mod = date % 12;
+//      var mod = date % 12;
 //   use conditional to define variable
+for (let i = 0; i < 14; i++) {
+  setTimeout(function () {mod++}, 6000);
       if (mod == 0) {
           starStr = "Aquarius";
         } else if (mod == 1){
@@ -58,6 +61,10 @@ function sortStar() {
         }
 //   return text
         return starStr;
+        return
+        if (i == 13){
+          i = 0;
+        }
     }
 
 // Three pure javascript functions to manipulate classes
