@@ -18,7 +18,7 @@ $(document).ready(function(){
     $("#myCarousel").carousel(3);
  });
 
-  Carousel Controls
+  //Carousel Controls
  $(".left").click(function(){
    $("#myCarousel").carousel("prev");
  });
@@ -26,64 +26,6 @@ $(document).ready(function(){
    $("#myCarousel").carousel("next");
  });
 });
-// var mod = 0;
-
-function sortStar() {
-//   do a mod 12
-     var mod = date % 12;
-//   use conditional to define variable
-// for (let i = 0; i < 14; i++) {
-//   setTimeout(function () {mod++}, 6000);
-      if (mod == 0) {
-          starStr = "Aquarius";
-        } else if (mod == 1){
-          starStr = "Pisces";
-        } else if (mod == 2){
-          starStr = "Aries";
-        } else if (mod == 3){
-          starStr = "Taurus";
-        } else if (mod == 4){
-          starStr = "Gemini";
-        } else if (mod == 5){
-          starStr = "Cancer";
-        } else if (mod == 6){
-          starStr = "Leo";
-        } else if (mod == 7){
-          starStr = "Virgo";
-        } else if (mod == 8){
-          starStr = "Libra";
-        } else if (mod == 9){
-          starStr = "Scorpio";
-        } else if (mod == 10){
-          starStr = "Sagittarius";
-        } else if (mod == 11){
-          starStr = "Capricorn";
-        }
-//   return text
-        return starStr;
-        // return
-        // if (i == 13){
-        //   i = 0;
-        //   console.log(i);
-        // }
-    }
-
-// Three pure javascript functions to manipulate classes
-// from https://stackoverflow.com/questions/6787383/how-to-add-remove-a-class-in-javascript
-// function hasClass(ele,cls) {
-//   return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
-// }
-// //
-// function addClass(ele,cls) {
-//   if (!hasClass(ele,cls)) ele.className += " "+cls;
-// }
-// //
-// function removeClass(ele,cls) {
-//   if (hasClass(ele,cls)) {
-//     var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
-//     ele.className=ele.className.replace(reg,' ');
-//   }
-// }
 
 //   Get input from user
        $("#button").click(function(){
@@ -98,26 +40,13 @@ function sortStar() {
         document.getElementById("output").innerHTML = newText;
 })
 
-//   var outputArea = document.getElementById("output");
-//   outputArea.innerHTML = newText;
-//   removeClass(outputArea, "hidden");
-//   removeClass(document.getElementById("hidden");
-// })
-// var myInput = document.getElementById("input");
-// myInput.addEventListener("focus", function() {
-//   addClass(document.getElementById("output"), "hidden");
-//   addClass(document.getElementById("hidden");
-// });
-
-
-
 //< ---------------------------------------------------------------------------------------------- >
 // New code after talking with Wes
 
 //create and array the holds all the images
 //https://stackoverflow.com/questions/8810927/showing-an-image-from-an-array-of-images-javascript
 
-create and array the holds all the images
+//create and array the holds all the images
 //https://stackoverflow.com/questions/8810927/showing-an-image-from-an-array-of-images-javascript
 
 var starArray = [
@@ -189,8 +118,7 @@ var starArray = [
 // Function to calculate sum
 // digits of n
 function zodiac_sign(day, month)	{
-		let astro_sign="";
-
+		 let astro_sign=["Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer","Leo","Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn"];
 		// checks month and date within the
 		// valid range of a specified zodiac
 		if (month == "december"){
@@ -282,18 +210,6 @@ function zodiac_sign(day, month)	{
 
 // take a string and return a hashed checksum of the string
 // from c
-function checksum(s) {
-  var hash = 0, strlen = s.length, i, c;
-  if ( strlen === 0 ) {
-    return hash;
-  }
-  for ( i = 0; i < strlen; i++ ) {
-    c = s.charCodeAt( i );
-    hash = ((hash << 5) - hash) + c;
-    hash = hash & hash; // Convert to 32bit integer
-  }
-  return hash;
-};
 
 // Three pure javascript functions to manipulate classes
 // from https://stackoverflow.com/questions/6787383/how-to-add-remove-a-class-in-javascript
@@ -314,11 +230,6 @@ function removeClass(ele,cls) {
 
 // Given a name, hash the string, and
 // return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
-function zodiac_sign(day, month) {
-  checksumValue = checksum(str);
-  mod = Math.abs(checksumValue) % housesArray.length;
-  return starArray[ur];      // returns an object from the array
-}
 
 //   Get input from user
  $("#button").click(function(){
