@@ -52,60 +52,60 @@ $(document).ready(function(){
 var starArray = [
   {
     title: "Aquarius",
-    url: "../img/aquarius.jpg"
+    url: "../img/aquarius.png"
   },
   {
     title: "Pisces",
-    url: "../img/pisces.jpg",
+    url: "../img/pisces.png",
     location:"Right Ascension: 0.85 hours, Declination: 11.08 degrees, Best viewed: at 9 p.m. between Nov. 6 and Nov. 9.",
     fact: "'The Hubble Space Telescope imaged a pair of bizarre galaxies, called Pisces A and Pisces B, in 2014. Two years later, researchers announced that data from those observations showed the dwarf galaxies used to be by themselves, but over time they moved to a nearby group of galaxies — a process that accelerated star formation.'",
     myth: "'The fish themselves are apparently the Greek goddess Aphrodite and her son, Eros, who turned into fish and jumped into the Euphrates River to evade the fiery breath of the monster Typhon, 'the most awful monster the world had ever seen,' according to Ridpath.'"
   },
   {
     title: "Aries",
-    url: "../img/aries.jpg"
+    url: "../img/aries.png"
   },
   {
     title: "Taurus",
-    url: "../img/taurus.jpg"
+    url: "../img/taurus.png"
   },
   {
     title: "Gemini",
-    url: "../img/gemini.jpg",
+    url: "../img/gemini.png",
     location: "By April and May, the constellation can be seen soon after sunset in the west. Right ascension: 7 hours, Declination: 20 degrees.",
     fact: "'Gemini is the radiant point for a meteor shower known as the Geminids, which happen every year around mid-December.'",
     myth: "'The two brightest stars in the constellation, also named after Greek mythology's Castor and Pollux, represent the heads of the twins, while fainter stars outline the pair's bodies.'"
   },
   {
     title: "Cancer",
-    url: "../img/cancer.jpg"
+    url: "../img/cancer.png"
   },
   {
     title: "Leo",
-    url: "../img/leo.jpg"
+    url: "../img/leo.png"
   },
   {
     title: "Virgo",
-    url: "../img/virgo.jpg",
+    url: "../img/virgo.png",
     location: "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.",
     fact:"The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.",
     myth:"According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone."
   },
   {
     title: "Libra",
-    url: "../img/libra.jpg"
+    url: "../img/libra.png"
   },
   {
     title: "Scorpio",
-    url: "../img/scorpio.jpg"
+    url: "../img/scorpio.png"
   },
   {
     title: "Sagittarius",
-    url: "../img/sagittarius.jpg"
+    url: "../img/sagittarius.png"
   },
   {
     title: "Capricorn",
-    url: "../img/capricorn.jpg"
+    url: "../img/capricorn.png"
   }
 ]
 
