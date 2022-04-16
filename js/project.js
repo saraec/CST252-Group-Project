@@ -1,5 +1,5 @@
 /**
- * Author:    Sara Christensen, Arturo Rios,
+ * Author:    Sara Christensen, Arturo Rios, Rodrigo Diaz
  * Created:   4.15.2022
  **/
 
