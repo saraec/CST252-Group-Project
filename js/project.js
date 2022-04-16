@@ -1,5 +1,5 @@
 /**
- * Author:    Sara Christensen
+ * Author:    Sara Christensen,
  * Created:   4.15.2022
  **/
 
@@ -41,7 +41,7 @@
    }
    else if ( (month ==7 && 22 < day )||(month==8 && day<23) ){
    star= starArray[4];
-     url="../img/leo.png";
+     url="../img/Leo.png";
    }
    else if ( (month ==8 && 22 < day )||(month==9 && day<23) ){
    star= starArray[5];
