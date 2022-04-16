@@ -4,6 +4,7 @@
  **/
 
  function birthDate(){
+   var image = document.getElementById("star");
    var month=document.getElementById("month").value;
    var day=document.getElementById("day").value;
    var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
