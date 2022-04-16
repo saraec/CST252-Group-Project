@@ -13,7 +13,7 @@
    console.log(url)
    // var element=document.getElementById("horoscope");
    var star=[];
-   if (year===""||month===""||day===""){
+   if (month===""||day===""){
      alert("The information is incomplete!");
    }
    else{
@@ -72,8 +72,8 @@
      url="../img/pisces.png";
    }
 
-   document.getElementById("display").innerHTML= star;
-   document.getElementById("zodiac").src=url;
+   document.getElementById("display").innerHTML = star;
+   document.getElementById("zodiac").src = url;
  }
  }
 
