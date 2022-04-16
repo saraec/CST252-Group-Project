@@ -6,7 +6,7 @@
  function birthDate(){
    var month=document.getElementById("month").value;
    var day=document.getElementById("day").value;
-   var starArray=["Aries ../img/aries.png", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
+   var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
    // var numbers=[0,1,2,3,4,5,6,7,8,9,10,11];
    var url;
    var sign=[];
