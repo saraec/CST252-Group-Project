@@ -8,10 +8,7 @@
    var day=document.getElementById("day").value;
    var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
    // var numbers=[0,1,2,3,4,5,6,7,8,9,10,11];
-   var url;
-   var location;
-   var fact;
-   var myth;
+   var url, info;
    console.log(url)
    var sign=[];
    if (month===""||day===""){
@@ -29,9 +26,9 @@
    else if ( (month ==5 && 20 < day )||(month==6 && day<21) ){
    sign= starArray[2];
      url="../img/gemini.png";
-     location= "By April and May, the constellation can be seen soon after sunset in the west. Right ascension: 7 hours, Declination: 20 degrees.";
-    fact= "'Gemini is the radiant point for a meteor shower known as the Geminids, which happen every year around mid-December.'";
-    myth= "'The two brightest stars in the constellation, also named after Greek mythology's Castor and Pollux, represent the heads of the twins, while fainter stars outline the pair's bodies.'";
+     info= "By April and May, the constellation can be seen soon after sunset in the west. Right ascension: 7 hours, Declination: 20 degrees." + <br> </br> +
+     "'Gemini is the radiant point for a meteor shower known as the Geminids, which happen every year around mid-December.'" + <br> </br> +
+     "'The two brightest stars in the constellation, also named after Greek mythology's Castor and Pollux, represent the heads of the twins, while fainter stars outline the pair's bodies.'";
    }
    else if ( (month ==6 && 20 < day )||(month==7 && day<23) ){
    sign= starArray[3];
@@ -44,9 +41,9 @@
    else if ( (month ==8 && 22 < day )||(month==9 && day<23) ){
    sign= starArray[5];
      url="../img/virgo.png";
-     location= "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.";
-      fact="The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.";
-      myth="According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone.";
+     info= "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m." + <br> </br> +
+     "The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter." + <br> </br> +
+      "According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone.";
    }
    else if ( (month ==9 && 22 < day )||(month==10 && day<23) ){
    sign= starArray[6];
@@ -71,13 +68,13 @@
    else if ( (month ==2 && 18 < day )||(month==3 && day<21) ){
    sign= starArray[11];
      url="../img/pisces.png";
-     location="Right Ascension: 0.85 hours, Declination: 11.08 degrees, Best viewed: at 9 p.m. between Nov. 6 and Nov. 9.";
-    fact= "'The Hubble Space Telescope imaged a pair of bizarre galaxies, called Pisces A and Pisces B, in 2014. Two years later, researchers announced that data from those observations showed the dwarf galaxies used to be by themselves, but over time they moved to a nearby group of galaxies — a process that accelerated star formation.'";
-    myth="'The fish themselves are apparently the Greek goddess Aphrodite and her son, Eros, who turned into fish and jumped into the Euphrates River to evade the fiery breath of the monster Typhon, 'the most awful monster the world had ever seen,' according to Ridpath.'";
+     info="Right Ascension: 0.85 hours, Declination: 11.08 degrees, Best viewed: at 9 p.m. between Nov. 6 and Nov. 9." + <br> </br> +
+      "'The Hubble Space Telescope imaged a pair of bizarre galaxies, called Pisces A and Pisces B, in 2014. Two years later, researchers announced that data from those observations showed the dwarf galaxies used to be by themselves, but over time they moved to a nearby group of galaxies — a process that accelerated star formation.'" + <br> </br> +
+    "'The fish themselves are apparently the Greek goddess Aphrodite and her son, Eros, who turned into fish and jumped into the Euphrates River to evade the fiery breath of the monster Typhon, 'the most awful monster the world had ever seen,' according to Ridpath.'";
    }
 
    document.getElementById("display").innerHTML= sign;
-   document.getElementById("zodiac").src=url;
+   document.getElementById("zodiac").src = url;
  }
  }
 
