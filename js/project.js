@@ -1,5 +1,5 @@
 /**
- * Author:    Sara Christensen
+ * Author:    Sara Christensen,
  * Created:   4.15.2022
  **/
 
@@ -33,7 +33,7 @@
    }
    else if ( (month ==7 && 22 < day )||(month==8 && day<23) ){
    sign= starArray[4];
-     url="../img/leo.png";
+     url="../img/Leo.png";
    }
    else if ( (month ==8 && 22 < day )||(month==9 && day<23) ){
    sign= starArray[5];
@@ -49,11 +49,11 @@
    }
    else if ( (month ==11 && 21 < day )||(month==12 && day<22) ){
    sign= starArray[8];
-     url="../img/sagittarius.png";
+     url="../img/Sagittarius.png";
    }
    else if ( (month ==12 && 21 < day )||(month==1 && day<20) ){
    sign= starArray[9];
-     url="../img/capricorn.png";
+     url="../img/Capricorn.png";
    }
    else if ( (month ==1 && 19 < day )||(month==2 && day<19) ){
    sign= starArray[10];
