@@ -7,7 +7,7 @@ div{
 }
 
 body{
-  background-image: url(../img/night-sky.png);
+  background-image: url("../img/night-sky.png");
   background-size: cover;
   color: white;
   font-family: Arial;
@@ -90,15 +90,15 @@ div{
   top:48%;
   left:45%;
 }
-/*
-body {
+
+/* body {
   background-image: url(../img/night-sky.png);
   background-size: cover;
   color: white;
   font-family: Arial;
   font-weight: bolder;
-}
-
+} */
+/*
 #virgo img {
   display: inline-block;
   max-width: 500px;
