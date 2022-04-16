@@ -29,9 +29,9 @@
    else if ( (month ==5 && 20 < day )||(month==6 && day<21) ){
    sign= starArray[2];
      url="../img/gemini.png";
-     location= "By April and May, the constellation can be seen soon after sunset in the west. Right ascension: 7 hours, Declination: 20 degrees.",
-    fact= "'Gemini is the radiant point for a meteor shower known as the Geminids, which happen every year around mid-December.'",
-    myth= "'The two brightest stars in the constellation, also named after Greek mythology's Castor and Pollux, represent the heads of the twins, while fainter stars outline the pair's bodies.'"
+     location= "By April and May, the constellation can be seen soon after sunset in the west. Right ascension: 7 hours, Declination: 20 degrees.";
+    fact= "'Gemini is the radiant point for a meteor shower known as the Geminids, which happen every year around mid-December.'";
+    myth= "'The two brightest stars in the constellation, also named after Greek mythology's Castor and Pollux, represent the heads of the twins, while fainter stars outline the pair's bodies.'";
    }
    else if ( (month ==6 && 20 < day )||(month==7 && day<23) ){
    sign= starArray[3];
@@ -44,9 +44,9 @@
    else if ( (month ==8 && 22 < day )||(month==9 && day<23) ){
    sign= starArray[5];
      url="../img/virgo.png";
-     location= "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.",
-  fact="The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.",
-  myth="According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone."
+     location= "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.";
+      fact="The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.";
+      myth="According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone.";
    }
    else if ( (month ==9 && 22 < day )||(month==10 && day<23) ){
    sign= starArray[6];

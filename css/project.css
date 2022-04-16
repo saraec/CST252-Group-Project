@@ -8,7 +8,9 @@ div{
 
 body{
   background-image: url("../img/night-sky.png");
+  background-color: #04042b;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   font-family: Arial;
   margin-top:2%;
