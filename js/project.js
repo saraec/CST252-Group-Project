@@ -13,7 +13,7 @@
    console.log(url)
    // var element=document.getElementById("horoscope");
    var star=[];
-   if (year===""||month===""||day===""){
+   if (month===""||day===""){
      alert("The information is incomplete!");
    }
    else{
