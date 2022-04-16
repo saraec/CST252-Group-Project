@@ -63,7 +63,7 @@
    }
 
    document.getElementById("display").innerHTML= sign;
-   document.getElementById("zodiac").src = url;
+   document.getElementById("zodiac").src = starArray[url];
  }
  }
 
