@@ -1,5 +1,5 @@
 /**
- * Author:    Sara Christensen, Arturo Rios,
+ * Author:    Sara Christensen, Arturo Rios, Rodrigo Diaz
  * Created:   4.15.2022
  **/
 
@@ -21,6 +21,10 @@
    else if ( (month ==4 && 19 < day )||(month==5 && day<20) ){
    sign= starArray[1];
      url="../img/taurus.png";
+     info= "Right Ascencion: 4 Hours. Declination: 15 Degrees. Best Visible: between 90 degrees and -66 degrees." + <br> </br> +
+     "The constellation Taurus is hard to miss as he charges through the northern winter sky. 'The bull' is one of the most noticeable constellations and one of the oldest documented constellations, with descriptions of Taurus going as far back as the early Bronze Age." + <br> </br> +
+     "Taurus is most famous for its red giant star, Aldebaran, as well as a star cluster known as the Pleiades." + <br> </br> +
+     "When Zeus fell in love with the Phoenician Princess Europa, he transformed himself into a white bull with golden horns named Taurus and carried Europa away to Crete."
    }
    else if ( (month ==5 && 20 < day )||(month==6 && day<21) ){
    sign= starArray[2];
@@ -33,6 +37,9 @@
    else if ( (month ==7 && 22 < day )||(month==8 && day<23) ){
    sign= starArray[4];
      url="../img/Leo.png";
+     info= "Best Seen at 9 p.m. Leo has been a great lion in the night sky across almost all mythological traditions. In Greek lore, Leo is the monstrous lion that was killed by Hercules as part of his twelve labors." + <br> </br> +
+     "The lion could not be killed by mortal weapons, as its fur was impervious to attack, and its claws sharper than any human sword. Eventually Hercules tracked him down and strangled the great beast, albeit losing a finger in the process." + <br> </br> +
+     "The Chaldeans associated Leo with the sun since it is in the sky during the summer solstice (although this is no longer true, due to the precession of the Earth's axis). Since Nile floods around this time, the ancient Egyptians worshipped the celestial lion."
    }
    else if ( (month ==8 && 22 < day )||(month==9 && day<23) ){
    sign= starArray[5];
@@ -41,6 +48,8 @@
    else if ( (month ==9 && 22 < day )||(month==10 && day<23) ){
    sign= starArray[6];
      url="../img/libra.png";
+     info= "Declination: -15.59 Degrees. Right Ascencion: 15.21 hours." + <br> </br> +
+     "Located in the Southern Hemisphere between Scorpus to the east and Virgo, Libra borders Serpens Caput, Hydra, Centaurus, Lupus, and Ophiuchus."
    }
    else if ( (month ==10 && 22 < day )||(month==11 && day<22) ){
    sign= starArray[7];
