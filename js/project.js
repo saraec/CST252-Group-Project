@@ -81,8 +81,8 @@
 
 // button click event
 document.getElementById("submit").onclick = function() {
-  birthDate()
-  console.log(birthDate())
+  birthDate();
+  console.log(birthDate());
 };
 
 
