@@ -1,5 +1,5 @@
 /**
- * Author:    Sara Christensen,
+ * Author:    Sara Christensen, Arturo Rios,
  * Created:   4.15.2022
  **/
 
@@ -18,6 +18,9 @@
    if( (month ==3 && 20<day < 22)||(month==4 && day<20) ){
    sign= starArray[0];
      url="../img/aries.png";
+      info= "It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -60°." + <br> </br> +
+      "'Aries is the 39th largest constellation in the sky, occupying 441 square degrees. Its name means “the ram” in Latin. The symbol for the constellation is horns and it represents a ram’s horns.'" + <br> </br> +
+      "'In Greek myth, Aries is identified with the golden ram that rescued Phrixus and took him to Colchis, where he sacrificed the ram to the gods. The ram’s skin that he placed in a temple was the Golden Fleece, which later appears in the story of Jason and the Argonauts.'";
    }
    else if ( (month ==4 && 19 < day )||(month==5 && day<20) ){
    sign= starArray[1];
@@ -33,6 +36,9 @@
    else if ( (month ==6 && 20 < day )||(month==7 && day<23) ){
    sign= starArray[3];
      url="../img/cancer.png";
+     info= "Right Ascension: 9 hours, Declination: 20.00 degrees, Best viewed: at 9 p.m. at March, 15th." + <br> </br> +
+     "'Cancer is one of the 48 constellations originally listed by the Greek astronomer Ptolemy in the second century. Its name means “the crab” in Latin.'" + <br> </br> +
+     "'It is believed to represent the crab in the story of the twelve labors of Hercules. It was sent by the goddess Hera to distract Hercules while he is fighting the Hydra. When the crab tries to kill Hercules, he kicks it so hard that it is propelled into the sky among the stars.'";
    }
    else if ( (month ==7 && 22 < day )||(month==8 && day<23) ){
    sign= starArray[4];
@@ -52,6 +58,9 @@
    else if ( (month ==10 && 22 < day )||(month==11 && day<22) ){
    sign= starArray[7];
      url="../img/scorpio.png";
+     info= "Right Ascension: 17 hours, Declination: minus 40 degrees, Best seen in July at 9 p.m." + <br> </br> +
+     "'In astrology, which is not a science, the constellation is called Scorpio. It is the eighth sign in the Zodiac and represents those born between Oct. 24 and Nov. 22. The traits of those born under the sign are said to include determination and loyalty.'" + <br> </br> +
+    "'Scorpius and Orion are often intertwined in Greek mythology. According to one myth, Orion boasted that he would kill every animal on the earth. The goddess-hunter Artemis and her mother, Leto, dispatched a scorpion to kill Orion. Zeus put the scorpion in the heavens after it won the battle.";
    }
    else if ( (month ==11 && 21 < day )||(month==12 && day<22) ){
    sign= starArray[8];
@@ -225,7 +234,10 @@ document.getElementById("button").onclick = function() {
 //   },
 //   {
 //     title: "Aries",
-//     url: "../img/aries.jpg"
+//     url: "../img/aries.png",
+//     location:"It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -60°.",
+//     fact: "'Aries is the 39th largest constellation in the sky, occupying 441 square degrees. Its name means “the ram” in Latin. The symbol for the constellation is horns and it represents a ram’s horns.'",
+//     myth: "'In Greek myth, Aries is identified with the golden ram that rescued Phrixus and took him to Colchis, where he sacrificed the ram to the gods. The ram’s skin that he placed in a temple was the Golden Fleece, which later appears in the story of Jason and the Argonauts.'"
 //   },
 //   {
 //     title: "Taurus",
@@ -240,7 +252,10 @@ document.getElementById("button").onclick = function() {
 //   },
 //   {
 //     title: "Cancer",
-//     url: "../img/cancer.jpg"
+//     url: "../img/cancer.png"
+//     location: "Right Ascension: 9 hours, Declination: 20.00 degrees, Best viewed: at 9 p.m. at March, 15th.",
+//     fact: "'Cancer is one of the 48 constellations originally listed by the Greek astronomer Ptolemy in the second century. Its name means “the crab” in Latin.'",
+//     myth: "'It is believed to represent the crab in the story of the twelve labors of Hercules. It was sent by the goddess Hera to distract Hercules while he is fighting the Hydra. When the crab tries to kill Hercules, he kicks it so hard that it is propelled into the sky among the stars.'"
 //   },
 //   {
 //     title: "Leo",
@@ -250,8 +265,8 @@ document.getElementById("button").onclick = function() {
 //     title: "Virgo",
 //     url: "../img/virgo.jpg",
 //     location: "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.",
-//     fact:"The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.",
-//     myth:"According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone."
+//     fact: "'The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.'",
+//     myth: "'According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone."
 //   },
 //   {
 //     title: "Libra",
@@ -259,7 +274,10 @@ document.getElementById("button").onclick = function() {
 //   },
 //   {
 //     title: "Scorpio",
-//     url: "../img/scorpio.jpg"
+//     url: "../img/scorpio.png"
+//     location: "Right Ascension: 17 hours, Declination: minus 40 degrees, Best seen in July at 9 p.m.",
+//     fact: "'In astrology, which is not a science, the constellation is called Scorpio. It is the eighth sign in the Zodiac and represents those born between Oct. 24 and Nov. 22. The traits of those born under the sign are said to include determination and loyalty.'",
+//     myth: "'Scorpius and Orion are often intertwined in Greek mythology. According to one myth, Orion boasted that he would kill every animal on the earth. The goddess-hunter Artemis and her mother, Leto, dispatched a scorpion to kill Orion. Zeus put the scorpion in the heavens after it won the battle.'"
 //   },
 //   {
 //     title: "Sagittarius",
@@ -498,6 +516,9 @@ document.getElementById("button").onclick = function() {
 //   {
 //     title: "Aries",
 //     url: "../img/aries.png"
+//     location:"It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -60°.",
+//     fact: "'Aries is the 39th largest constellation in the sky, occupying 441 square degrees. Its name means “the ram” in Latin. The symbol for the constellation is horns and it represents a ram’s horns.'",
+//     myth: "'In Greek myth, Aries is identified with the golden ram that rescued Phrixus and took him to Colchis, where he sacrificed the ram to the gods. The ram’s skin that he placed in a temple was the Golden Fleece, which later appears in the story of Jason and the Argonauts.'"
 //   },
 //   {
 //     title: "Taurus",
@@ -513,6 +534,9 @@ document.getElementById("button").onclick = function() {
 //   {
 //     title: "Cancer",
 //     url: "../img/cancer.png"
+//     location: "Right Ascension: 9 hours, Declination: 20.00 degrees, Best viewed: at 9 p.m. at March, 15th.",
+//     fact: "'Cancer is one of the 48 constellations originally listed by the Greek astronomer Ptolemy in the second century. Its name means “the crab” in Latin.'",
+//     myth: "'It is believed to represent the crab in the story of the twelve labors of Hercules. It was sent by the goddess Hera to distract Hercules while he is fighting the Hydra. When the crab tries to kill Hercules, he kicks it so hard that it is propelled into the sky among the stars.'"
 //   },
 //   {
 //     title: "Leo",
@@ -522,8 +546,8 @@ document.getElementById("button").onclick = function() {
 //     title: "Virgo",
 //     url: "../img/virgo.png",
 //     location: "Right Ascension: 13 hours, Declination: 0 degrees, Best seen in May at 9 p.m.",
-//     fact:"The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.",
-//     myth:"According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone."
+//     fact: "'The pink planet GJ 504b, which at the time of the announcement in 2013 was the smallest planet ever photographed around a sun-like star. However, the planet itself is still relatively large, at four times the mass of Jupiter.'",
+//     myth: "'According to Greek mythology, the earth experienced eternal spring until the god of the underworld abducted the spring maiden Persephone.'"
 //   },
 //   {
 //     title: "Libra",
@@ -532,6 +556,9 @@ document.getElementById("button").onclick = function() {
 //   {
 //     title: "Scorpio",
 //     url: "../img/scorpio.png"
+//     location: "Right Ascension: 17 hours, Declination: minus 40 degrees, Best seen in July at 9 p.m.",
+//     fact: "'In astrology, which is not a science, the constellation is called Scorpio. It is the eighth sign in the Zodiac and represents those born between Oct. 24 and Nov. 22. The traits of those born under the sign are said to include determination and loyalty.'",
+//     myth: "'Scorpius and Orion are often intertwined in Greek mythology. According to one myth, Orion boasted that he would kill every animal on the earth. The goddess-hunter Artemis and her mother, Leto, dispatched a scorpion to kill Orion. Zeus put the scorpion in the heavens after it won the battle.'"
 //   },
 //   {
 //     title: "Sagittarius",
