@@ -77,11 +77,15 @@
  }
  }
 
+ console.log(document.getElementById("submit"));
+
 // button click event
-document.getElementById("button").onclick = function() {
+document.getElementById("submit").onclick = function() {
   birthDate();
   console.log(birthDate());
 };
+
+
 
 
 // // Create a carousel of a curved path
