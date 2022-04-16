@@ -25,7 +25,7 @@
    // }
    if( (month ==3 && 20<day < 22)||(month==4 && day<20) ){
    star= starArray[0];
-     url"../img/aries.png";
+     url="../img/aries.png";
    }
    else if ( (month ==4 && 19 < day )||(month==5 && day<20) ){
    star= starArray[1];
@@ -77,11 +77,15 @@
  }
  }
 
+ console.log(document.getElementById("submit"));
+
 // button click event
-document.getElementById("button").onclick = function() {
+document.getElementById("submit").onclick = function() {
   birthDate()
   console.log(birthDate())
 };
+
+
 
 
 // // Create a carousel of a curved path
