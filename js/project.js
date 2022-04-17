@@ -68,7 +68,6 @@
  }
  }
 
- console.log(document.getElementById("button"));
 
 // button click event
 document.getElementById("button").onclick = function() {
