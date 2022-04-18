@@ -1,6 +1,7 @@
 /**
- * Author:    Sara Christensen, Arturo Rios, Rodrigo Diaz
- * Created:   4.15.2022
+* Cecilia (https://codepen.io/ceciliayang/pen/xVEjvP)
+ * Sara Christensen, Arturo Rios, Rodrigo Diaz, Henry Wilkinson
+ *  4.13.2022
  **/
 
  function birthDate(){
