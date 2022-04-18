@@ -64,14 +64,14 @@
      image=imagesArray[11];
    }
 
-   document.getElementById("display").innerHTML= sign;
-   document.getElementById("zodiac").src= image;
+   $("#display").html(sign);
+  $("#zodiac").attr("src", image);
  }
  }
 
 
 // button click event
-document.getElementById("button").onclick = function() {
-  birthDate();
-  console.log(birthDate());
-};
+$("#button").click(function() {
+ birthDate();
+ console.log(birthDate());
+});
