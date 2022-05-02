@@ -70,6 +70,39 @@
  }
  }
 
+// calling the horoscope from the API
+$("#button").click(getAjax);
+
+
+// horoscope variable
+var url = "https://ohmanda.com/api/horoscope/" + sign;
+console.log(url);
+// use a jQuery AJAX call to fetch output from the numbers API
+function getAjax() {
+  // Using the core $.ajax() method
+  $.ajax({
+      // The URL for the request
+      url: url,
+      // The data to send (will be converted to a query string)
+      /* data: {
+        api_key: apiKey,
+        count: 1
+      }, */
+      // Whether this is a POST or GET request
+      type: "GET",
+    })
+    // If the request succeeds
+    .done(function(data) {
+      var horoscope = data.horoscope;
+      console.log(data);
+      /*  fullUrl = thisData.url; */
+      // Insert the output in the output div
+      /*
+        $("#output").html("<h3>" + thisData.title); */
+      $("#output").append("<p>" + horoscope + "</p>");
+    })
+}
+
 
 // button click event
 $("#button").click(function() {
