@@ -7,7 +7,7 @@
  function birthDate(){
    var month=document.getElementById("month").value;
    var day=document.getElementById("day").value;
-   var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
+   var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "pisces"];
    var imagesArray=["img/aries.png", "img/Taurus.png", "img/gemini.png", "img/cancer.png", "img/Leo.png", "img/virgo.png", "img/libra.png","img/scorpio.png","img/Sagittarius.png","img/Capricorn.png","img/aquarius.png","img/pisces.png"];
    var url;
    var sign=[];
@@ -74,7 +74,7 @@
 
 
   // horoscope variable
-  var url = "https://ohmanda.com/api/horoscope/" + "<p style= text-transform: lowercase>" + sign + "</p>";
+  var url = "https://ohmanda.com/api/horoscope/" + sign;
   console.log(url);
   // use a jQuery AJAX call to fetch output from the numbers API
   function getAjax() {
@@ -93,11 +93,9 @@
       // If the request succeeds
       .done(function(data) {
         var horoscope = data.horoscope;
-        console.log(data);
-        /*  fullUrl = thisData.url; */
+        console.log(horoscope);
+
         // Insert the output in the output div
-        /*
-          $("#output").html("<h3>" + thisData.title); */
         $("#output").append("<p>" + horoscope + "</p>");
       })
   }
