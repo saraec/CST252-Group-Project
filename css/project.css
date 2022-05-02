@@ -95,3 +95,7 @@ input[placeholder]{
   top:48%;
   left:40%;
 }
+
+#output {
+  column-count: 2;
+}

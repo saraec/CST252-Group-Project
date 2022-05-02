@@ -7,7 +7,7 @@
  function birthDate(){
    var month=document.getElementById("month").value;
    var day=document.getElementById("day").value;
-   var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "pisces"];
+   var starArray=["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"];
    var imagesArray=["img/aries.png", "img/Taurus.png", "img/gemini.png", "img/cancer.png", "img/Leo.png", "img/virgo.png", "img/libra.png","img/scorpio.png","img/Sagittarius.png","img/Capricorn.png","img/aquarius.png","img/pisces.png"];
    var url;
    var sign=[];
@@ -104,6 +104,7 @@
  }
  }
 
+// **need to consolidate to one click event**
 // button click event
 $("#button").click(function() {
  birthDate();
