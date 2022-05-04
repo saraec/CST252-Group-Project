@@ -17,6 +17,14 @@ body{
   text-align:center;
 }
 
+.background {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+}
+
 h2, h3, h4, p{
   color: white;
   margin-bottom: 1%;
@@ -98,4 +106,33 @@ input[placeholder]{
 
 #output {
   column-count: 2;
+}
+
+/* blinking glow */
+#glow1 {
+  z-index:-5;
+  animation: glow 2s ease infinite;
+}
+@keyframes glow {
+  /* split on and off blink (45:20 ratio) with a little fade out */
+  0%, 45% {
+    opacity: 100%;
+  }
+  70%,90% {
+    opacity: 33%;
+  }
+}
+
+#glow2 {
+  z-index:-5;
+  animation: flicker 2s ease infinite;
+}
+@keyframes flicker {
+  /* split on and off blink (45:20 ratio) with a little fade out */
+  0%, 45% {
+    opacity: 33%;
+  }
+  70%,90% {
+    opacity: 100%;
+  }
 }
