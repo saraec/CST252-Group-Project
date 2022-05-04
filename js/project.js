@@ -74,7 +74,7 @@ function birthDate(){
 
 
     // horoscope variable
-    var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase;
+    var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
     console.log(url);
     // use a jQuery AJAX call to fetch output from the numbers API
     function getAjax() {
@@ -104,7 +104,7 @@ function birthDate(){
 }
 }
 
-// **need to consolidate to one click event**
+
 // button click event
 $("#button").click(function() {
   birthDate();
