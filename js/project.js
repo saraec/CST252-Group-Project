@@ -67,37 +67,37 @@ function birthDate(){
 
     $("#display").html(sign);
     $("#zodiac").attr("src", image);
-}
-
-    // calling the horoscope from the API
-    // $("#button").click(getAjax);
-
-
-    // horoscope variable
-    var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
-    console.log(url);
-
-    // use a jQuery AJAX call to fetch output from the numbers API
-    function getAjax() {
-      // Using the core $.ajax() method
-      $.ajax({
-        // The URL for the request
-        url: url,
-        // Whether this is a POST or GET request
-        type: "GET",
-      })
-      // If the request succeeds
-      .done(function(data) {
-        var horoscope = data.horoscope;
-        console.log(horoscope);
-
-        // Insert the output in the output div
-        $("#output").html("<p>" + horoscope + "</p>");
-      })
-    }
-
-
   }
+
+  // calling the horoscope from the API
+  // $("#button").click(getAjax);
+
+
+  // horoscope variable
+  var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
+  console.log(url);
+
+  // use a jQuery AJAX call to fetch output from the numbers API
+  function getAjax() {
+    // Using the core $.ajax() method
+    $.ajax({
+      // The URL for the request
+      url: url,
+      // Whether this is a POST or GET request
+      type: "GET",
+    })
+    // If the request succeeds
+    .done(function(data) {
+      var horoscope = data.horoscope;
+      console.log(horoscope);
+
+      // Insert the output in the output div
+      $("#output").html("<p>" + horoscope + "</p>");
+    })
+  }
+
+
+}
 }
 
 
