@@ -67,7 +67,7 @@ function birthDate(){
 
     $("#display").html(sign);
     $("#zodiac").attr("src", image);
-
+}
 
     // calling the horoscope from the API
     // $("#button").click(getAjax);
@@ -76,6 +76,7 @@ function birthDate(){
     // horoscope variable
     var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
     console.log(url);
+
     // use a jQuery AJAX call to fetch output from the numbers API
     function getAjax() {
       // Using the core $.ajax() method
@@ -94,7 +95,7 @@ function birthDate(){
         $("#output").html("<p>" + horoscope + "</p>");
       })
     }
-    
+
 
   }
 }
