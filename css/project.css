@@ -17,7 +17,7 @@ body{
   text-align:center;
 }
 
-.background {
+#background {
   position: absolute;
   top:0;
   left:0;
