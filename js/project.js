@@ -82,26 +82,21 @@ function birthDate(){
       $.ajax({
         // The URL for the request
         url: url,
-        // The data to send (will be converted to a query string)
-        /* data: {
-        api_key: apiKey,
-        count: 1
-      }, */
-      // Whether this is a POST or GET request
-      type: "GET",
-    })
-    // If the request succeeds
-    .done(function(data) {
-      var horoscope = data.horoscope;
-      console.log(horoscope);
+        // Whether this is a POST or GET request
+        type: "GET",
+      })
+      // If the request succeeds
+      .done(function(data) {
+        var horoscope = data.horoscope;
+        console.log(horoscope);
 
-      // Insert the output in the output div
-      $("#output").html("<p>" + horoscope + "</p>");
-    })
+        // Insert the output in the output div
+        $("#output").html("<p>" + horoscope + "</p>");
+      })
+    }
+    
+
   }
-
-
-}
 }
 
 
