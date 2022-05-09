@@ -105,6 +105,7 @@ input[placeholder]{
   width:21%;
   top:48%;
   left:40%;
+  margin-top: 10px;
 }
 
 #output {
