@@ -96,6 +96,7 @@ input[placeholder]{
   -o-border-radius:10px; */
   outline:none;
 }
+
 #button:hover{
   background-color:#cc5801;
 }
@@ -106,7 +107,7 @@ input[placeholder]{
   width:21%;
   top:48%;
   left:40%;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 #output {
