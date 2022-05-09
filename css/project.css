@@ -13,7 +13,8 @@ body{
   background-repeat: no-repeat;
   color: white;
   font-family: Arial;
-  margin-top:2%;
+  width: 100vw;
+  height: 100vh;
   text-align:center;
 }
 
