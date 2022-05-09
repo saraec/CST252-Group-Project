@@ -25,6 +25,10 @@ body{
   height: 100vh;
 }
 
+svg {
+  overflow: hidden;
+}
+
 h2, h3, h4, p{
   color: white;
   margin-bottom: 1%;
@@ -52,7 +56,6 @@ input[placeholder]{
   font-weight: bold;
   color: darkblue;
 }
-
 
 #display, h4#display{
   border:#404040;

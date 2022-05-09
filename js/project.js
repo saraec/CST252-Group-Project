@@ -72,7 +72,6 @@ function birthDate(){
   // calling the horoscope from the API
   // $("#button").click(getAjax);
 
-
   // horoscope variable
   var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
   console.log(url);
@@ -86,6 +85,7 @@ function birthDate(){
       // Whether this is a POST or GET request
       type: "GET",
     })
+
     // If the request succeeds
     .done(function(data) {
       var horoscope = data.horoscope;
@@ -95,9 +95,6 @@ function birthDate(){
       $("#output").html("<p>" + horoscope + "</p>");
     })
   }
-
-
-}
 }
 
 
