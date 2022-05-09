@@ -10,8 +10,8 @@ function birthDate(){
   var starArray=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
   var imagesArray=["img/aries.png", "img/Taurus.png", "img/gemini.png", "img/cancer.png", "img/Leo.png", "img/virgo.png", "img/libra.png","img/scorpio.png","img/Sagittarius.png","img/Capricorn.png","img/aquarius.png","img/pisces.png"];
   // var url;
-  var sign=[];
-  var image =[];
+  var sign;
+  var image;
   if (month===""||day===""){
     alert("Enter the month and date to get your results!");
   }
@@ -67,6 +67,7 @@ function birthDate(){
 
     $("#display").html(sign);
     $("#zodiac").attr("src", image);
+    return sign;
   }
 
   // calling the horoscope from the API
@@ -74,12 +75,13 @@ function birthDate(){
 
 }
 
-// horoscope variable
-var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
-console.log(url);
+
 
 // use a jQuery AJAX call to fetch output from the numbers API
-function getAjax() {
+function getAjax(sign) {
+  // horoscope variable
+  var url = "https://ohmanda.com/api/horoscope/" + sign.toLowerCase();
+  console.log(url);
   // Using the core $.ajax() method
   $.ajax({
     // The URL for the request
@@ -100,9 +102,9 @@ function getAjax() {
 
 // button click event
 $("#button").click(function() {
-  birthDate();
+  var mySign =  birthDate();
   console.log(birthDate());
   // calling the horoscope from the API
-  getAjax();
+  getAjax(mySign);
   console.log(getAjax());
 });
