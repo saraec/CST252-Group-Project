@@ -70,9 +70,6 @@ function birthDate(){
     return sign;
   }
 
-  // calling the horoscope from the API
-  // $("#button").click(getAjax);
-
 }
 
 
@@ -92,6 +89,7 @@ function getAjax(sign) {
 
   // If the request succeeds
   .done(function(data) {
+    // calling the horoscope from the API
     var horoscope = data.horoscope;
     console.log(horoscope);
 
