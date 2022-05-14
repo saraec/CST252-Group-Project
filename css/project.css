@@ -18,6 +18,7 @@ body{
   text-align:center;
 }
 
+
 #background {
   position: absolute;
   top:0;
@@ -108,7 +109,7 @@ input[placeholder]{
 }
 
 #zodiac{
-  position:absolute;
+  position: absolute;
   z-index:2;
   width:21%;
   top:48%;
@@ -124,6 +125,10 @@ input[placeholder]{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+col-xs-6.col-lg-2.col-lg-push-4.width {
+    width: 16%!important;
 }
 
 /* blinking glow */
