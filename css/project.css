@@ -6,6 +6,11 @@ div{
   text-align:center;
 }
 
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
 body{
   /* background-image: url("../img/night-sky.png"); */
   background-color: #04042b;
@@ -112,8 +117,8 @@ input[placeholder]{
   position: absolute;
   z-index:2;
   width:21%;
-  top:48%;
-  left:40%;
+  top:28%;
+  left:55%;
   margin-top: 8px;
 }
 
@@ -125,6 +130,7 @@ input[placeholder]{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    font-size: 80%;
 }
 
 col-xs-6.col-lg-2.col-lg-push-4.width {
